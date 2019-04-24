@@ -1,0 +1,10 @@
+git init
+git clone
+git log
+git push
+git pull
+
+git add <a path>
+    this will stage all local changes 
+    to any files/folders at/under that path.
+    usually "." in bash means, the current directory.
