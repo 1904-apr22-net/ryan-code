@@ -16,6 +16,8 @@ namespace palindrome.Library
 
         public static bool GetPStatus(string myString)
         {
+            myString.Replace(" ", string.Empty);
+
             string firstWord = myString.Substring(0, myString.Length / 2);
 
           //  firstWord.Replace(/\s +/ g, '');
